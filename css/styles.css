@@ -3,43 +3,47 @@
   margin: 15px 0;
   border-radius: 40px;
 }
-.site-header nav ul, .site-footer ul {
+.site-header ul,
+.site-footer ul {
   padding-left: 0;
 }
-.site-header nav ul li, .site-footer ul li {
+.site-header ul li,
+.site-footer ul li {
   list-style-type: none;
   gap: 15px;
 }
 
 /* hero */
 .hero {
-  margin-bottom: 15px;
-  border: solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: solid black .2em;
 }
 
 .hero img {
   width: 100%;
-  padding: 10px;
 }
 
-.hero .row article h3,
-.hero .row p,
-.hero .row form {
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
+/*  spots */
 
-/* spots */
+.spots > article {
+  margin: 0;
+}
 .spots img {
-  border: black solid;
   width: 100%;
+  padding-top: 10px;
 }
 
 .spots figcaption {
-  display: block;
   text-align: center;
   font-weight: bold;
-  margin: 10px;
+  padding: 15px;
+}
+
+.spots figure {
+  border: solid black .2em; 
+
+  margin: 20px 0;
 }
 /* populära produkter */
 .populäraprodukter h3 {
@@ -60,8 +64,13 @@
 
 /* footer */
 
-.site-footer li i{
-    margin-right:5px ;
+.site-footer li i {
+  margin-right: 5px;
 }
 
-
+.site-footer small {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+}

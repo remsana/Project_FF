@@ -9,6 +9,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
@@ -19,29 +23,27 @@
 
     <!-- Site header -->
   </head>
-  <body>
-    <div class="container">
+  <body class="container">    
       <header class="site-header">
-        <article class="row align-items-center">
-          <article class="col-12 col-sm-4">
+        <article class="row">
+          <article class="col-12 col-sm-2">
             <img
-              src="https://via.placeholder.com/200X75?text=Freaky%20Fashion"
-              alt="Freaky Fashion Logotyp"
+              src="https://via.placeholder.com/200X75?text=Freaky%20Fashion" class="img-fluid"  alt="Freaky Fashion Logotyp"
             />
           </article>
-          <form class="col-12 col-sm-3">
+          <form class="col-4 col-sm-4">
             <input type="search" placeholder="Sök produkt" name="q" />
           </form>
         </article>
-        <nav>
-          <ul>
-            <li><a href="Nyheter">Nyheter</a></li>
-            <li><a href="Kategorier">Kategorier</a></li>
-            <li><a href="Topplistan">Topplistan</a></li>
-            <li><a href="Rea">Rea</a></li>
-            <li><a href="Kampanjer">Kampanjer</a></li>
+        
+          <ul class="row">
+            <li class="col-12 col-sm-1"><a href="Nyheter">Nyheter</a></li>
+            <li class="col-12 col-sm-1"><a href="Kategorier">Kategorier</a></li>
+            <li class="col-12 col-sm-1"><a href="Topplistan">Topplistan</a></li>
+            <li class="col-12 col-sm-1"><a href="Rea">Rea</a></li>
+            <li class="col-12 col-sm-1"><a href="Kampanjer">Kampanjer</a></li>
           </ul>
-        </nav>
+        
       </header>
 
       <!--Hero part-->
@@ -51,6 +53,7 @@
             <article class="col-12 order-1 col-sm-6 order-sm-2">
               <img src="http://placekitten.com/450/250" />
             </article>
+
             <article class="col-12 order-2 col-sm-6 order-sm-1">
               <h3>Lorem ipsum dolor</h3>
               <p>
@@ -58,9 +61,12 @@
                 Doloribus veritatis omnis sed est labore hic magni culpa,
                 aliquid iusto sit.
               </p>
-              <form>
+              
+              <article class="row">
+              <form class="col-12 text-center col-sm-1 text-left">
                 <button>Lorem</button>
-              </form>
+            </form>
+            </article>
             </article>
           </article>
         </article>
@@ -68,121 +74,140 @@
 
       <!-- spots -->
 
-      <article class="spots">
-        <div class="row">
-          <figure class="d-none d-sm-block col-sm-4">
-            <img src="http://placekitten.com/410/250" alt="Lorem" />
-            <figcaption>Lorem Ipsum dolor</figcaption>
+        <article class="spots">
+        <article class="row justify-content-between">
+          <figure class="d-none d-sm-block col-sm-3">              
+            <img src="http://placekitten.com/350/250" alt="Lorem" />
+            <figcaption>Lorem Ipsum dolor</figcaption>        
           </figure>
-          <figure class="d-none d-sm-block col-sm-4">
-            <img src="http://placekitten.com/410/250" alt="Lorem" />
-            <figcaption>Lorem Ipsum dolor</figcaption>
+
+          <figure class="d-none d-sm-block col-sm-3">           
+          <img src="http://placekitten.com/350/250" alt="Lorem" />
+          <figcaption>Lorem Ipsum dolor</figcaption>     
           </figure>
-          <figure class="d-none d-sm-block col-sm-4">
-            <img src="http://placekitten.com/410/250" alt="Lorem" />
-            <figcaption>Lorem Ipsum dolor</figcaption>
+
+          <figure class="d-none d-sm-block col-sm-3">            
+          <img src="http://placekitten.com/350/250" alt="Lorem" />
+          <figcaption>Lorem Ipsum dolor</figcaption>     
           </figure>
-        </div>
+        </article>
       </article>
+
+      <!-- popular products -->
 
       <article class="populäraprodukter">
         <h3>Populära Produkter</h3>
         <article class="row">
+
           <article class="col-12 col-sm-3">
             <img src="http://placekitten.com/200/300" alt="Lorem" />
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
-            <img src="http://placekitten.com/200/300" alt="Lorem" />
+            <img src="http://placekitten.com/200/300" alt="Lorem"/>
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
             <img src="http://placekitten.com/200/300" alt="Lorem" />
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
-            <img src="http://placekitten.com/200/300" alt="Lorem" />
+            <img src="http://placekitten.com/200/300" alt="Lorem"/>
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
-            <img src="http://placekitten.com/200/300" alt="Lorem" />
+            <img src="http://placekitten.com/200/300" alt="Lorem"/>
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
             <img src="http://placekitten.com/200/300" alt="Lorem" />
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
-            <img src="http://placekitten.com/200/300" alt="Lorem" />
+            <img src="http://placekitten.com/200/300" alt="Lorem"  />
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
+
           <article class="col-12 col-sm-3">
             <img src="http://placekitten.com/200/300" alt="Lorem" />
             <article class="row">
-              <figcaption class="col-7 text">Lorem ipsum dolor</figcaption>
-              <span class="col-5 price">249 kr</span>
+              <figcaption class="col-8 text">Lorem ipsum dolor</figcaption>
+              <span class="col-4 price">249 kr</span>
             </article>
           </article>
         </article>
       </article>
 
+      <!-- footer -->
+
       <footer class="site-footer">
-        <ul class="row footericon">
+        <ul class="row">
           <li class="col-12 col-sm-3">
-            <i class="bi bi-globe"></i>Gratis frakt och returer
+            <i class="fa fa-globe"></i>Gratis frakt och returer
           </li>
           <li class="col-12 col-sm-3">
-            <i class="col-12 col-sm-3 bi bi-telegram"></i> Expressfrakt
+            <i class="fa fa-fighter-jet"></i> Expressfrakt
           </li>
           <li class="col-12 col-sm-3">
-            <i class="col-12 col-sm-3 bi bi-shield-shaded"></i>Säkra betalningar
+            <i class="bi bi-shield-shaded"></i>Säkra betalningar
           </li>
           <li class="col-12 col-sm-3">
-            <i class="col-12 col-sm-3 bi bi-emoji-smile"></i>Nyheter varje dag
+            <i class="bi bi-emoji-smile"></i>Nyheter varje dag
           </li>
         </ul>
-        <article class="footerlist">
-          <nav> 
-            <h5>Shopping</h5>
-            <a href="Vinterjackor">Vinterjackor</a>
-            <a href="Puferjackor">Puferjackor</a>
-            <a href="Kappa">Kappa</a>
-            <a href="Trenchcoats">Trenchcoats</a>
+        <article class="row">
+          <nav class="col-12 col-sm-3">
+            <ul>
+              <h5>Shopping</h5>
+              <li><a href="Vinterjackor">Vinterjackor</a></li>
+              <li><a href="Puferjackor">Puferjackor</a></li>
+              <li><a href="Kappa">Kappa</a></li>
+              <li><a href="Trenchcoats">Trenchcoats</a></li>
+            </ul>
           </nav>
-          <nav>
+          <nav class="col-12 col-sm-3">
+            <ul>
             <h5>Mina Sidor</h5>
-            <a href="Mina Ordrar">Mina Ordrar</a>
-            <a href="Mitt Konto">Mitt Konto</a>
+            <li><a href="Mina Ordrar">Mina Ordrar</a></li>
+            <li></li><a href="Mitt Konto">Mitt Konto</a></li>
+            </ul>
           </nav>
-          <nav>
+          <nav class="col col-sm-3">
+              <ul>
             <h5>Kundtjänst</h5>
-            <a href="Returnpolicy">Returnpolicy</a>
-            <a href="Integritetspolicy">Integritetspolicy</a>
+            <li><a href="Returnpolicy">Returnpolicy</a></li>
+           <li> <a href="Integritetspolicy">Integritetspolicy</a></li>
+        </ul>
           </nav>
         </article>
-        <small class="footer-copyright">Copyright 2019 FreakyFashion</small>
+        <small>Copyright 2019 FreakyFashion</small>
       </footer>
-    </div>
-  </body>
+      </body>
 </html>
